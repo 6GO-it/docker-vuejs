@@ -9,10 +9,10 @@ ENV USER node
 
 WORKDIR ${HOME}
 
-COPY config/package.json ${HOME}
+COPY config ${HOME}
 
 RUN mkdir -p app \
-    && chown -R ${USER}:${USER} .config .npm package.json
+    && chown -R ${USER}:${USER} app package.json .profile
 
 EXPOSE 80
 
