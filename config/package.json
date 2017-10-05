@@ -1,0 +1,27 @@
+{                                                             
+  "author": "6GO",
+  "license": "MIT",
+  "version": "1.0.1",
+  "description": "A package.json sample that contains useful vuejs packages",
+  "scripts": {
+    "test": "echo \"Warning: this is a sample package.json file\" && exit 1"     
+  },
+  "dependencies": {
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^2.7.0",
+    "vue-rx": "^4.0.1",
+    "vuex": "^2.4.1"
+  },
+  "devDependencies": {
+    "broccoli": "^1.1.3",
+    "browserify": "^14.4.0",
+    "cross-env": "^5.0.5",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "rxjs": "^5.4.3",
+    "vue-cli": "^2.9.1",
+    "web-ext": "^2.0.0",
+    "webpack": "^3.6.0"
+  }                                         
+}
