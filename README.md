@@ -13,7 +13,6 @@ Nothing much to configure, the image is already built with some global packages:
 - [Browserify](https://www.npmjs.com/package/browserify) Use a node-style `require()` to organize your browser code and load modules installed by npm.
 - [Gulp](https://www.npmjs.com/package/gulp) The streaming build system
 - [Grunt](https://www.npmjs.com/package/grunt) The JavaScript Task Runner
-- [Bower](https://www.npmjs.com/package/Bower) A package manager for the web
 - [Vue Cli](https://www.npmjs.com/package/vue-cli) A simple CLI for scaffolding Vue.js projects.
 - [Web Ext](https://github.com/mozilla/web-ext) A command line tool to help build, run, and test web extensions
 

@@ -13,7 +13,6 @@ RUN npm install -g --silent \
     browserify \
     gulp \
     grunt \
-    bower \
     vue-cli \
     web-ext
 
