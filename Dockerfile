@@ -7,21 +7,12 @@ LABEL maintainer="open-source@6go.it" \
 ENV HOME /home/node
 ENV USER node
 
-RUN npm install -g --silent \
-    cross-env \
-    webpack \
-    browserify \
-    gulp \
-    grunt \
-    vue-cli \
-    web-ext
-
 WORKDIR ${HOME}
 
-COPY config/packages.json ${HOME}
+COPY config/package.json ${HOME}
 
 RUN mkdir -p app \
-    && chown -R ${USER}:${USER} .config .npm packages.json
+    && chown -R ${USER}:${USER} .config .npm package.json
 
 EXPOSE 80
 
