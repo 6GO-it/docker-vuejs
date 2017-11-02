@@ -2,7 +2,7 @@ FROM node:alpine
 
 LABEL maintainer="open-source@6go.it" \
       vendor="6go.it" \
-      version=1.1.0
+      version=1.1.1
 
 ENV HOME /home/node
 ENV USER node
