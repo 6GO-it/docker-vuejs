@@ -39,4 +39,4 @@ The default user is `node` as suggested by the [best practies](https://github.co
 
 ## Docker Hub
 
-This images is avaiable trought [Docker Hub](https://hub.docker.com/r/6gosrl/docker-vuejs).
+This images is avaiable trought [Docker Hub](https://hub.docker.com/r/6gosrl/vuejs).
